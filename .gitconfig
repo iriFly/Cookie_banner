@@ -1,0 +1,12 @@
+[user]
+	name = Irina Afanassenko
+	email = irina.afanassenko@contraste.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[safe]
+	directory = C:/Users/iafanassenko/Desktop/Skillmeter/Skillmeter
+[core]
+	editor = code --wait
